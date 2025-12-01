@@ -16,10 +16,6 @@ img {
   margin: 60px;
 }
 
-img:hover {
-    border: 2px solid red;
-}
-
 ul {
     list-style-type: none;
 }
@@ -108,5 +104,7 @@ p {
 }
 
 @media all and (max-width: 500px) {
-
+    img:hover{
+        border: solid 2px red;
+    }
 }
