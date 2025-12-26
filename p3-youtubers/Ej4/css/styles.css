@@ -21,7 +21,7 @@ body {
     background-color: #424242;
 }
 
-.youtuber, .footer, .header {
+.youtuber, footer, header {
     background-color: #333333;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -30,7 +30,7 @@ body {
     padding: 20px;
     text-align: center;    
 }
-.footer {
+footer {
     padding: 0px;
     color: white;
 }
@@ -106,7 +106,7 @@ li {
 }
 
 @media all and (max-width: 700px) {
-    .youtuber, .footer, #menu {
+    .youtuber, footer, #menu {
         border-color: red;
     }
     .button {
